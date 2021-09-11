@@ -23,8 +23,8 @@ int main()
     int iMyInt = 0;    
     // the first 2 tests are designed to fail, so I have remarked them out.  Unremark them to run and see expected failures.
     // Pop from an empty stack (no values are stored on the stack)
-    // 
-    //Peek from an empty stack (no values are stored on the stack)
+    // myStack.pop();
+    // Peek from an empty stack (no values are stored on the stack)
     // iMyInt = myStack.top();
    
     myStack.push(1); // push being used
@@ -43,6 +43,7 @@ int main()
     myStack.pop();
     std::cout << myStack.size();
     std::cout << "\n";
-    std::cout << "Hello World!\n";
+    std::cout << "\nTop Unit is: ";
+    std::cout << iMyInt;
 }
 
